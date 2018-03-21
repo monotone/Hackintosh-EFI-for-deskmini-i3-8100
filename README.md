@@ -17,7 +17,12 @@ v2ex上 @LXchienne 提供给我的EFI，我没试成功过。
 1. 分辨率默认的和最高的就是4k，再低一级的是`1920*1080`了。
 2. 睡眠后唤醒，整个系统会明显变得卡顿。
 
-### BISO设置
+### BISO
+
+#### 刷bios
+参考 https://github.com/damnnfo/DeskMini-110-COM 
+
+#### 安装前设置
 
 These settings work on the Deskmini which does NOT have a COM port. If your Deskmini does have a COM port check for any settings relating to the COM port and ensure that the port is DISABLED.（备注，如果是带COM口的，记得关掉，印象中是serialse port）
 1. With the Deskmini’s BIOS page shown (press F2 at startup to enter the UEFI), enter Advanced Mode (F6 or click top right).
